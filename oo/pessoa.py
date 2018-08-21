@@ -20,3 +20,9 @@ if __name__ == "__main__":
 
     for filho in denison.filhos:
         print(f'nome do filho: {filho.nome}')
+    
+    denison.sobrenome = 'Oliveira'
+    del denison.filhos
+    print(denison.__dict__)
+    print(joao.__dict__)
+
